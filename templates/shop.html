@@ -1,0 +1,19 @@
+<!doctype html>
+    <html>
+        <head>
+            
+        </head>
+        <body>
+        	<h1>super cool shop
+        	</h1>
+        	<p>super cool shop were you could buy to yourself or youre friends oranges</p>
+        	<h2>our orange collaction</h2>
+        	<ul>
+        		{% for orange in oranges %}
+        		<li>
+        			{{orange}}
+        		</li>
+        		{% endfor %}
+        	</ul>
+        </body>
+    </html>
